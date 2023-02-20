@@ -37,19 +37,6 @@
 # else:
 #     print("Vuelve a intentarlo")
     
-# accion = print(input("Quieres salir?" "q"))
-
-# while accion != "Quit" or "quit":
-
-
-
-#ejercicio5
-# def numbers():
-#     return 10, 20, 30
-
-# a = numbers()
-
-# print(type(a))
 
 
 

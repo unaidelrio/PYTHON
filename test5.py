@@ -1,8 +1,3 @@
-# import uuid
-
-# print("El UUId iiod1() es :", end="")
-# print(uuid.uuid1())
-
 import turtle
 
 myTurtle = turtle.Turtle()

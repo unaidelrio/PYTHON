@@ -1,6 +1,7 @@
 #pagina 52
 # Importing library
 import qrcode
+import os
 # Link for website
 input_data = input("Introducir link: ")
 #Creating an instance of qrcode
@@ -12,4 +13,3 @@ qr.add_data(input_data)
 qr.make(fit=True)
 img = qr.make_image(fill='black', back_color='white')
 img.save('qrcode001.png')
-

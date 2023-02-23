@@ -47,7 +47,7 @@ print()
 
 ai = randint(1, 10) # El programa genera un número random.
 i = 1 # Variable que contiene el contador de intentos.
-iRes = 5 # Variable que lleva el contador de intentos restantes
+iRes = 5 # Variable que lleva el contador de intentos restantes.
 
  # print(ai) # print creado para pruebas de testeo. Nos dice el numero random.
 

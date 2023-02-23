@@ -103,7 +103,7 @@ import random  #para pode rutilizar random
 
 # print(dir(random))
 x = random.random()
-y = random.randint(10,100)
+y = random.randint(1,3)
 frutas = ["Manzana", "Platano", "Kiwi"]
 z = random.choice(frutas)
 

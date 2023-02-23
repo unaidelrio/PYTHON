@@ -12,7 +12,8 @@ import random #Crear un numero random que se asignara a la edad del usuario a ad
 numero = random.randint(1,100) #saca un numero del 1 al 100 aleatorio que sera el que el usuario tiene que adivinar
 print(numero) ##printeo el numero del randomizador para saber cual es mientras pruebo el programa
 numUsuario = int(input("Introduce un numero: ")) #creo una variable en la que se añadira el numero introducido por el
-
+win = str("¡Has adivinado el numero!")
+saliste = str("Has salido del juego.")
 while numero != numUsuario: #si el numero del bucle no es el mismo que ha añadido el usuario re repite
     print("¡Fallaste!")
     print("Prueba de nuevo.")

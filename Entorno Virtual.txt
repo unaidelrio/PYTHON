@@ -1,0 +1,22 @@
+-python
+
+-$Env:Path
+
+-test1proj\scripts\activate 3creamos el entorno virtual
+
+-pip list #para ver todos los pip que tenemos instalados en esta EV
+
+-deactivate #para desactivar el entrono virtual
+
+-instalar camelcase con "pip install"
+
+-pypi pagina para ver como funcionan los pip, en este caso camelcase #pip de python
+-npmjs.com de java
+
+-para desinstalar el pip "pip uninstall ... " Y/n
+
+-pip freeze > requirements.txt #congela todo los pips que tenemos instalados y crea un archivos con todos los pips para pasarlos a otro servidotr/ordenador/EV
+
+-pip install -r requirements.txt para instalar todos los pips del archivo creado en la otra plataforma/EV
+
+-CTRL SHIFT P - crar entorno /create enviroment
